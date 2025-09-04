@@ -1,0 +1,169 @@
+      body {
+        margin : 0 ;
+        padding-top: 60px;
+        padding-left: 70px;
+        background-color: rgba(128, 128, 128, 0.08);
+      }
+
+      .border {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-color:rgba(128, 128, 128, 0.24) ;;
+        justify-content: space-between;
+        position:fixed;
+        top : 0 ;
+        left: 0;
+        right: 0;
+        z-index: 10;
+      }
+
+      .menu {
+        background-color: white;
+        border : none ;
+        margin-left: 20px;
+      }
+
+      .yt {
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1.8);
+      }
+
+      .yt-framer {
+        overflow: hidden;
+        width: 150px;
+        text-align: center;
+      }
+
+      .yt-logo {
+        display: flex;
+        width: 230px ;
+      }
+
+      .yt-search {
+        border : none ;
+        box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.5);
+        padding: 8px;
+        outline: none ;
+        width : 80% ;
+      }
+  
+       .yt-search-bar {
+        flex : 1 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 650px;
+       }
+
+    .login-bla-bla {
+        width : 220px ;
+        margin-left:30px ;
+        display: flex ;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .search-btn {
+      border:none ;
+      padding : 2px 8px ;
+      box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.5);
+      position: relative;
+    } 
+
+    .search-btn .tooltip {
+      position: absolute;
+      background-color: grey;
+      color: white;
+      padding: 2px 4px;
+      border-radius: 2px;
+      bottom: -26px;
+      right: -6px;
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.15s;
+    }
+
+    .search-btn:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+
+    .icon-container {
+      position: relative ;
+      display: flex;
+      justify-content: center;
+    }
+
+  .icon-container .tooltip {
+    position: absolute ; 
+    font-family: arial;
+    white-space: nowrap ;
+    background-color: grey;
+    color: white;
+    font-size: 13px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    bottom: -27px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.15s;
+  }
+
+  .icon-container:hover .tooltip {
+    opacity: 0.8;
+    visibility: visible;
+  } 
+
+    .search-btn:hover .tooltip {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .search-btn:active {
+      opacity: 0.6;
+    }
+
+    .upload-icon {
+        height: 30px;
+        transform: scale(1.3);
+    }
+
+    .apps-icon {
+        height: 17px;
+    }
+   
+    .notification-icon {
+        height: 20px;
+        margin-top: 3.4px;
+    }
+    
+    .channel-icon {
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .nots-div {
+      position:relative ;
+    } 
+
+    .nots {
+      position : absolute ;
+      background-color: rgb(231, 6, 6);
+      font-size: 10px ;
+      border-radius: 30px;
+      top : -2.2px ;
+      right: -4px;
+      color: white;
+      padding: 1px 4px;
+      font-family: arial;
+    }
+
+    .login-bla-bla img:hover {
+       cursor: pointer;
+         
+    }

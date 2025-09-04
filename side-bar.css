@@ -1,0 +1,39 @@
+.sidebar {
+    background-color: white ;
+    position: fixed;
+   left: 0 ;
+   bottom: 0;
+   top: 60px;
+   width: 80px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   z-index: 101;
+   border-right : 2px solid rgba(128, 128, 128, 0.24) ;
+}
+
+.icon-name {
+    height: 70px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-right: 2px;
+}
+
+.icon {
+    width: 30px ;
+}
+
+.name {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.icon-name:hover {
+    background-color: rgba(128, 128, 128, 0.372) ;
+    cursor: pointer;
+}
