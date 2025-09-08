@@ -51,6 +51,13 @@
         outline: none ;
         width : 80% ;
       }
+
+      @media (max-width: 560px) {
+        .yt-search {
+          display: none;
+        }
+        
+      }
   
        .yt-search-bar {
         flex : 1 ;
